@@ -1,9 +1,3 @@
-#
-
-
-
-
-
 n=int(input("number of voter :"))
 voters_name=[]
 voters_age=[]
@@ -27,9 +21,9 @@ for i,j in voters.items():
     else:
         pass 
 if c_1>c_2:
-    print(candiate_1,"is winner")
+    print(candiate_1,"Win by",(c_1-c_2),"Votes")
 elif c_2>c_1:
-    print(candiate_2,"is winner")
+    print(candiate_2,"is winner",(c_2-c_1),"Votes")
 elif c_1==c_2:
     print("Draw")
 else:
